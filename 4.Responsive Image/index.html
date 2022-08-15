@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>This is practice page</title>
+<meta  charset="utf-8">
+//<link href="style.css" rel="stylesheet" type="text/css"> 
+<meta name="I cheng" content="This is kind of a practice">
+
+<body>
+    <picture>
+<source media="(max-width:799px)" srcset="logo2.png">
+<source media="(min-width:800px)" srcset="logo.png">
+<img src="logo.png" alt="This is logo practice">
+
+    </picture>
+
+<img srcset="logo_smaller.png 480w,
+            logo.png 800w"
+sizes="(max-width:600px) 480px, 800px"
+src="logo.png"
+alt="Logo practice">
+
+<img srcset="logo_smaller.png,
+logo.png 1.5x"
+src="logo.png"
+alt="Logo Practice">
+
+</body>
+</html>
